@@ -16,10 +16,13 @@ app.get("/chefs", (req, res) => {
 });
 
 app.get("/chefs/:id", (req, res) => {
-  const id = req.params.id;
-  console.log(id);
-  const selectedChefs = chefs.find((n) => n.id == id);
-  res.send(selectedChefs);
+  const id = parseInt(req.params.id);
+  if (id === 0) {
+    res.send(chefs);
+  } else {
+    const selectedChefs = chefs.find((n) => n.id === id);
+    res.send(selectedChefs);
+  }
 });
 
 app.listen(port, () => {
