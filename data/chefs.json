@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "chefPicture": "https://example.com/chef1.jpg",
+    "chefName": "Gino D'Acampo",
+    "yearsOfExperience": 25,
+    "numRecipes": 150,
+    "likes": 12000
+  },
+  {
+    "id": 2,
+    "chefPicture": "https://example.com/chef2.jpg",
+    "chefName": "Antonio Carluccio",
+    "yearsOfExperience": 40,
+    "numRecipes": 200,
+    "likes": 8000
+  },
+  {
+    "id": 3,
+    "chefPicture": "https://example.com/chef3.jpg",
+    "chefName": "Gennaro Contaldo",
+    "yearsOfExperience": 30,
+    "numRecipes": 120,
+    "likes": 15000
+  },
+  {
+    "id": 4,
+    "chefPicture": "https://example.com/chef4.jpg",
+    "chefName": "Massimo Bottura",
+    "yearsOfExperience": 25,
+    "numRecipes": 90,
+    "likes": 25000
+  },
+  {
+    "id": 5,
+    "chefPicture": "https://example.com/chef5.jpg",
+    "chefName": "Lidia Bastianich",
+    "yearsOfExperience": 50,
+    "numRecipes": 300,
+    "likes": 18000
+  },
+  {
+    "id": 6,
+    "chefPicture": "https://example.com/chef6.jpg",
+    "chefName": "Giada De Laurentiis",
+    "yearsOfExperience": 20,
+    "numRecipes": 100,
+    "likes": 20000
+  }
+]
